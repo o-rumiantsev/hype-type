@@ -1,4 +1,4 @@
-# HYPE-TYPE
+# hype-type
 
 ### Install
 ```sh
