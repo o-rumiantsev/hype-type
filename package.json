@@ -1,0 +1,25 @@
+{
+  "name": "hype-type",
+  "version": "0.0.1",
+  "description": "JavaScript library for maintaining value types",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-rumiantsev/type-js.git"
+  },
+  "keywords": [
+    "type"
+  ],
+  "author": "Rumiantsev Oleksii <rumiantsev.oleksii@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o-rumiantsev/type-js/issues"
+  },
+  "homepage": "https://github.com/o-rumiantsev/type-js#readme"
+}
