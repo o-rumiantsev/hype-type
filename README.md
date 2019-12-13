@@ -1,5 +1,7 @@
 # hype-type
 
+[![npm version](https://badge.fury.io/js/hype-type.svg)](https://badge.fury.io/js/hype-type)
+
 ### Install
 ```sh
 npm i hype-type
