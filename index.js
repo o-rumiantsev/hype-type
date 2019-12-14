@@ -1,6 +1,7 @@
 'use strict';
 
 const Type = require('./lib/type');
+const Schema = require('./lib/schema');
 const AsyncFunction = (async () => {}).constructor;
 
 const types = {
@@ -24,4 +25,8 @@ const types = {
   Null: new Type(value => value === null),
 };
 
-module.exports = Object.assign(Type, types);
+
+module.exports = {
+  Type: Object.assign(Type, types),
+  Schema,
+};

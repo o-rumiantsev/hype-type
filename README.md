@@ -15,7 +15,7 @@ using built-in library types or your own ones
 ```javascript
 'use strict'
 
-const Type = require('hype-type');
+const { Type } = require('hype-type');
 
 Type.Date.is(new Date()); // true
 
@@ -89,3 +89,47 @@ unionType.of('123'); // Type.String
 unionType.of({}); // undefined
 
 ``` 
+
+#### Schema class 
+
+`Schema` class is useful for defining object property types
+
+```javascript
+
+const { Type, Schema } = require('hype-type');
+
+const person = new Schema({
+  id: Type.Number,
+  name: Type.Stirng,
+  born: Type.Date,
+});
+
+person.is({
+  id: 1,
+  name: 'Alexander',
+  born: new Date(),
+}); // true
+
+```
+
+`Schema` extends `Type` class, so it has the same methods.
+
+You can also define optional properties using `[]` syntax:
+```javascript
+
+const person = new Schema({
+  id: Type.Number,
+  name: Type.String,
+  born: [Type.Date], // optional
+});
+
+person.is({
+  id: 1,
+  name: 'Alexander',
+}); // true
+
+person.is({
+  name: 'Alexander',
+}); // false, required property `id` is missing
+
+```
