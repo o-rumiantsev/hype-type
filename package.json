@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o-rumiantsev/type-js.git"
+    "url": "https://github.com/o-rumiantsev/hype-type"
   },
   "keywords": [
     "type",
@@ -20,7 +20,7 @@
   "author": "Rumiantsev Oleksii <rumiantsev.oleksii@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/o-rumiantsev/type-js/issues"
+    "url": "https://github.com/o-rumiantsev/hype-type/issues"
   },
-  "homepage": "https://github.com/o-rumiantsev/type-js#readme"
+  "homepage": "https://github.com/o-rumiantsev/hype-type#readme"
 }
