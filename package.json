@@ -14,7 +14,8 @@
     "url": "git+https://github.com/o-rumiantsev/type-js.git"
   },
   "keywords": [
-    "type"
+    "type",
+    "schema"
   ],
   "author": "Rumiantsev Oleksii <rumiantsev.oleksii@gmail.com>",
   "license": "MIT",
